@@ -1,0 +1,23 @@
+Hi Andreas,
+
+Here we go with:  EPL2 to PNG  v1.1
+
+Bug fixed:
+
+* Image padding.
+* Image height.
+* Image font size
+* Image font style
+* Numbers below the barcode
+
+There is no way to find the Zebra Fonts in TrueType Font.
+I found some fonts similar to Zebra Fonts
+
+Attached you have:
+
+* Model -> EPL2.php
+* Controller -> EPL2Controller.php
+* Image -> image.png
+* Font 1 -> elementa-regular.otf
+* Font 2 -> segoeuisl-semilight.ttf
+* Trying to find the font -> Gmail - Zebra Font Download.pdf

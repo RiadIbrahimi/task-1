@@ -1,0 +1,24 @@
+Hi Andreas,
+
+About this project, I had never work with this ELP2 Syntax or something like this Zebra Printer.
+
+When you sent me the project, I started researching about this.
+
+Attached you have: 
+Lumen Controller -> ELP2Controller.php
+Lumen Model -> ELP2.php
+Image -> image.png - which is created by ELP2 code in Controller.
+
+
+Now the model read the code, create images from syntax code.
+
+Now they are some bugs.
+
+* Image padding.
+* Image height.
+* Image font size
+* Image font style
+* Numbers below the barcode
+
+Can you run this, and send me comment about this and other steps, 
+meanwhile I am trying to fix these...

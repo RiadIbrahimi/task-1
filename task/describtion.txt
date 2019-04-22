@@ -1,0 +1,36 @@
+Hi Riad,
+
+Ok here it is: We need a function that allows us to render EPL2 commands into a png file. (normally this would be sent to a Zebra Label Printer for printing)
+
+Timeframe is: 2-3 days to implement this function, ready to deploy and tested.
+Completion: no later than Wed. Feb. 14, 2018
+
+We suggest the following approach:
+Create a Laravel/Composer Package which is compatible with Laravel Lumen 5.4.
+Package functionality: 
+A singleton class as API with a function which gets 2 parameters: the EPL2 program code and the path to which the rendered image should be saved.
+(Example: EPL2Renderer:: render ($epl2Code,"/tmp/label. png");)
+The rendered image should be 600px wide and variable, depending on what the rendered content looks like (no texts cut off etc).
+The goal should be that the rendered image looks as exact as possible as the label from the printer, i. e. use a similar font (you can find it on the Zebra page to download), etc....
+Use the following package for barcode generation: https://github.com/picqer/php-barcode-generator with Type: TYPE_CODE_128.
+The barcode type in the sample is EAN-13.
+
+Attached are:
+- EPL2_Manual
+- sample Label images
+- sample EPL2 codes to create these images
+
+Please contact me any time if you have questions.
+We would like to hear from you tomorrow or Monday with an update.
+
+Best,
+
+Andreas Schloissnik
+Business Development Manager
+
+
+
+7T Technologies GmbH
+Perlasgasse 7, A-2362 Biedermannsdorf
+Mob: +43.664.4074772
+andreas.schloissnik@sevent.at  www.sevent.at
